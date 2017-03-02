@@ -11,13 +11,14 @@
 		E85F75961E6128A000D586F6 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = E85F75951E6128A000D586F6 /* AppDelegate.m */; };
 		E85F75991E6128A000D586F6 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E85F75981E6128A000D586F6 /* ViewController.m */; };
 		E85F759E1E6128A000D586F6 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E85F759D1E6128A000D586F6 /* Assets.xcassets */; };
-		E85F75BB1E62C8CD00D586F6 /* AttributteStringVC.m in Sources */ = {isa = PBXBuildFile; fileRef = E85F75BA1E62C8CD00D586F6 /* AttributteStringVC.m */; };
 		E85F75C81E62CBEF00D586F6 /* FontFamily(iOS所有字体).m in Sources */ = {isa = PBXBuildFile; fileRef = E85F75C11E62CBEF00D586F6 /* FontFamily(iOS所有字体).m */; };
 		E85F75C91E62CBEF00D586F6 /* Macro(常用宏).m in Sources */ = {isa = PBXBuildFile; fileRef = E85F75C31E62CBEF00D586F6 /* Macro(常用宏).m */; };
 		E85F75CA1E62CBEF00D586F6 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E85F75C61E62CBEF00D586F6 /* LaunchScreen.storyboard */; };
 		E85F75CB1E62CBEF00D586F6 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E85F75C71E62CBEF00D586F6 /* Main.storyboard */; };
 		E85F75D01E62CC4600D586F6 /* 120x120.png in Resources */ = {isa = PBXBuildFile; fileRef = E85F75CE1E62CC4600D586F6 /* 120x120.png */; };
 		E85F75D11E62CC4600D586F6 /* bitch.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = E85F75CF1E62CC4600D586F6 /* bitch.jpeg */; };
+		E85F75D81E68647E00D586F6 /* LFAttributteNVC.m in Sources */ = {isa = PBXBuildFile; fileRef = E85F75D71E68647E00D586F6 /* LFAttributteNVC.m */; };
+		E85F75DB1E6864AE00D586F6 /* AttributteStringVC.m in Sources */ = {isa = PBXBuildFile; fileRef = E85F75DA1E6864AE00D586F6 /* AttributteStringVC.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -29,8 +30,6 @@
 		E85F75981E6128A000D586F6 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 		E85F759D1E6128A000D586F6 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		E85F75A21E6128A000D586F6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; name = Info.plist; path = ../Info.plist; sourceTree = "<group>"; };
-		E85F75B91E62C8CD00D586F6 /* AttributteStringVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AttributteStringVC.h; sourceTree = "<group>"; };
-		E85F75BA1E62C8CD00D586F6 /* AttributteStringVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AttributteStringVC.m; sourceTree = "<group>"; };
 		E85F75C01E62CBEF00D586F6 /* FontFamily(iOS所有字体).h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "FontFamily(iOS所有字体).h"; sourceTree = "<group>"; };
 		E85F75C11E62CBEF00D586F6 /* FontFamily(iOS所有字体).m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "FontFamily(iOS所有字体).m"; sourceTree = "<group>"; };
 		E85F75C21E62CBEF00D586F6 /* Macro(常用宏).h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "Macro(常用宏).h"; sourceTree = "<group>"; };
@@ -39,7 +38,11 @@
 		E85F75C71E62CBEF00D586F6 /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Main.storyboard; sourceTree = "<group>"; };
 		E85F75CE1E62CC4600D586F6 /* 120x120.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 120x120.png; sourceTree = "<group>"; };
 		E85F75CF1E62CC4600D586F6 /* bitch.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = bitch.jpeg; sourceTree = "<group>"; };
-		E85F75D21E62CCA400D586F6 /* PrefixHeader.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PrefixHeader.pch; sourceTree = "<group>"; };
+		E85F75D61E68647E00D586F6 /* LFAttributteNVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LFAttributteNVC.h; sourceTree = "<group>"; };
+		E85F75D71E68647E00D586F6 /* LFAttributteNVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LFAttributteNVC.m; sourceTree = "<group>"; };
+		E85F75D91E6864AE00D586F6 /* AttributteStringVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AttributteStringVC.h; sourceTree = "<group>"; };
+		E85F75DA1E6864AE00D586F6 /* AttributteStringVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AttributteStringVC.m; sourceTree = "<group>"; };
+		E85F75DC1E6864DB00D586F6 /* PrefixHeader.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PrefixHeader.pch; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -76,10 +79,10 @@
 				E85F75951E6128A000D586F6 /* AppDelegate.m */,
 				E85F75971E6128A000D586F6 /* ViewController.h */,
 				E85F75981E6128A000D586F6 /* ViewController.m */,
-				E85F75B91E62C8CD00D586F6 /* AttributteStringVC.h */,
-				E85F75BA1E62C8CD00D586F6 /* AttributteStringVC.m */,
+				E85F75D51E6863B400D586F6 /* 富文本 */,
 				E85F75BF1E62CBEF00D586F6 /* 其他 */,
 				E85F75C51E62CBEF00D586F6 /* StoryBoards */,
+				E85F75D31E65C14100D586F6 /* vender */,
 				E85F75911E6128A000D586F6 /* Supporting Files */,
 			);
 			path = "图文混排";
@@ -88,10 +91,9 @@
 		E85F75911E6128A000D586F6 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
-				E85F759D1E6128A000D586F6 /* Assets.xcassets */,
 				E85F75CD1E62CC3300D586F6 /* 图片 */,
+				E85F759D1E6128A000D586F6 /* Assets.xcassets */,
 				E85F75921E6128A000D586F6 /* main.m */,
-				E85F75D21E62CCA400D586F6 /* PrefixHeader.pch */,
 			);
 			name = "Supporting Files";
 			sourceTree = "<group>";
@@ -99,6 +101,7 @@
 		E85F75BF1E62CBEF00D586F6 /* 其他 */ = {
 			isa = PBXGroup;
 			children = (
+				E85F75DC1E6864DB00D586F6 /* PrefixHeader.pch */,
 				E85F75C01E62CBEF00D586F6 /* FontFamily(iOS所有字体).h */,
 				E85F75C11E62CBEF00D586F6 /* FontFamily(iOS所有字体).m */,
 				E85F75C21E62CBEF00D586F6 /* Macro(常用宏).h */,
@@ -124,6 +127,24 @@
 				E85F75CF1E62CC4600D586F6 /* bitch.jpeg */,
 			);
 			path = "图片";
+			sourceTree = "<group>";
+		};
+		E85F75D31E65C14100D586F6 /* vender */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = vender;
+			sourceTree = "<group>";
+		};
+		E85F75D51E6863B400D586F6 /* 富文本 */ = {
+			isa = PBXGroup;
+			children = (
+				E85F75D61E68647E00D586F6 /* LFAttributteNVC.h */,
+				E85F75D71E68647E00D586F6 /* LFAttributteNVC.m */,
+				E85F75D91E6864AE00D586F6 /* AttributteStringVC.h */,
+				E85F75DA1E6864AE00D586F6 /* AttributteStringVC.m */,
+			);
+			path = "富文本";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -201,7 +222,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				E85F75C81E62CBEF00D586F6 /* FontFamily(iOS所有字体).m in Sources */,
-				E85F75BB1E62C8CD00D586F6 /* AttributteStringVC.m in Sources */,
+				E85F75D81E68647E00D586F6 /* LFAttributteNVC.m in Sources */,
+				E85F75DB1E6864AE00D586F6 /* AttributteStringVC.m in Sources */,
 				E85F75991E6128A000D586F6 /* ViewController.m in Sources */,
 				E85F75C91E62CBEF00D586F6 /* Macro(常用宏).m in Sources */,
 				E85F75961E6128A000D586F6 /* AppDelegate.m in Sources */,

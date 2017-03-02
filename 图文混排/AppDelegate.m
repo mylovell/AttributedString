@@ -18,15 +18,13 @@
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
     // Override point for customization after application launch.
-    
+    //创建window
+    self.window = [[UIWindow alloc] initWithFrame:[[UIScreen mainScreen] bounds]];
     UITabBarController *tabBarController = [[UITabBarController alloc] init];
-    application.keyWindow.rootViewController = tabBarController;
-    
-    tabBarController.tabBarItem = [[UITabBarItem alloc] initWithTitle:@"富文本" image:nil tag:0];
     
     
     AttributteStringVC *attStringVC = [[AttributteStringVC alloc] init];
-    [tabBarController setViewControllers:@[attStringVC]];
+    attStringVC.tabBarItem = [[UITabBarItem alloc] initWithTitle:@"富文本" image:nil tag:0];
     
     
     return YES;
