@@ -1,0 +1,30 @@
+PODS:
+  - FMDB (2.6.2):
+    - FMDB/standard (= 2.6.2)
+  - FMDB/standard (2.6.2)
+  - FMDB_JING (0.1.1):
+    - FMDB (~> 2.3)
+  - IQKeyboardManager (4.0.8)
+  - Masonry (1.0.2)
+  - MBProgressHUD (1.0.0)
+  - Toast (3.1.0)
+
+DEPENDENCIES:
+  - FMDB
+  - FMDB_JING (~> 0.1.1)
+  - IQKeyboardManager
+  - Masonry
+  - MBProgressHUD (~> 1.0.0)
+  - Toast (~> 3.1.0)
+
+SPEC CHECKSUMS:
+  FMDB: 854a0341b4726e53276f2a8996f06f1b80f9259a
+  FMDB_JING: eb947930c5377b33cf1234f0aa8396f94c65f2a2
+  IQKeyboardManager: 1a8189fa153bf09044355ee0ad36826f6767e7f7
+  Masonry: 7c429b56da9d4ee0bbb3ed77a5ea710d6a5df39e
+  MBProgressHUD: 4890f671c94e8a0f3cf959aa731e9de2f036d71a
+  Toast: 14a93686d6c8bfe2727afd342414e35660a8a1f3
+
+PODFILE CHECKSUM: e706a97e9ac0347fd637015b12bbc4d6826a4987
+
+COCOAPODS: 1.2.0
