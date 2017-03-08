@@ -1,8 +1,14 @@
 platform :ios, '8.0'
 def pods
-    pod 'Toast', '~> 3.1.0'
+	pod 'Toast', '~> 3.1.0'
+	pod 'FMDB'
+	pod 'Masonry'
+	pod 'AFNetworking', '~> 3.0'
+	pod 'FMDB_JING', '~> 0.1.1'
+	pod 'MBProgressHUD', '~> 1.0.0'
+	pod 'IQKeyboardManager'
 end
 
-target '图文混排' do
+target 'LFAttribute' do
     pods
 end
