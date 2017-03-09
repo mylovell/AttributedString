@@ -1,4 +1,19 @@
 PODS:
+  - AFNetworking (3.1.0):
+    - AFNetworking/NSURLSession (= 3.1.0)
+    - AFNetworking/Reachability (= 3.1.0)
+    - AFNetworking/Security (= 3.1.0)
+    - AFNetworking/Serialization (= 3.1.0)
+    - AFNetworking/UIKit (= 3.1.0)
+  - AFNetworking/NSURLSession (3.1.0):
+    - AFNetworking/Reachability
+    - AFNetworking/Security
+    - AFNetworking/Serialization
+  - AFNetworking/Reachability (3.1.0)
+  - AFNetworking/Security (3.1.0)
+  - AFNetworking/Serialization (3.1.0)
+  - AFNetworking/UIKit (3.1.0):
+    - AFNetworking/NSURLSession
   - FMDB (2.6.2):
     - FMDB/standard (= 2.6.2)
   - FMDB/standard (2.6.2)
@@ -10,6 +25,7 @@ PODS:
   - Toast (3.1.0)
 
 DEPENDENCIES:
+  - AFNetworking (~> 3.0)
   - FMDB
   - FMDB_JING (~> 0.1.1)
   - IQKeyboardManager
@@ -18,6 +34,7 @@ DEPENDENCIES:
   - Toast (~> 3.1.0)
 
 SPEC CHECKSUMS:
+  AFNetworking: 5e0e199f73d8626b11e79750991f5d173d1f8b67
   FMDB: 854a0341b4726e53276f2a8996f06f1b80f9259a
   FMDB_JING: eb947930c5377b33cf1234f0aa8396f94c65f2a2
   IQKeyboardManager: 1a8189fa153bf09044355ee0ad36826f6767e7f7
@@ -25,6 +42,6 @@ SPEC CHECKSUMS:
   MBProgressHUD: 4890f671c94e8a0f3cf959aa731e9de2f036d71a
   Toast: 14a93686d6c8bfe2727afd342414e35660a8a1f3
 
-PODFILE CHECKSUM: e706a97e9ac0347fd637015b12bbc4d6826a4987
+PODFILE CHECKSUM: be816eaa04496a07788ee78a52bc73c623c1817e
 
 COCOAPODS: 1.2.0
