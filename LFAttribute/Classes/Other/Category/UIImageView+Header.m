@@ -7,7 +7,8 @@
 //
 
 #import "UIImageView+Header.h"
-#import <UIImageView+WebCache.h>
+#import "UIImageView+WebCache.h"
+#import "UIImage+Image.h"
 
 @implementation UIImageView (Header)
 - (void)bs_setHeader:(NSString *)url
