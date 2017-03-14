@@ -20,11 +20,8 @@
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
     // Override point for customization after application launch.
     
-    //创建window
     self.window = [[UIWindow alloc] initWithFrame:[[UIScreen mainScreen] bounds]];
-    LFTabBarViewController *tabBarController = [[LFTabBarViewController alloc] init];
-    
-    self.window.rootViewController = tabBarController;
+    self.window.rootViewController = [[LFTabBarViewController alloc] init];
     [self.window makeKeyAndVisible];
     
     return YES;

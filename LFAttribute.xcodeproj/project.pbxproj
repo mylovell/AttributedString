@@ -13,8 +13,6 @@
 		E85F75D01E62CC4600D586F6 /* 120x120.png in Resources */ = {isa = PBXBuildFile; fileRef = E85F75CE1E62CC4600D586F6 /* 120x120.png */; };
 		E85F75D11E62CC4600D586F6 /* bitch.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = E85F75CF1E62CC4600D586F6 /* bitch.jpeg */; };
 		E85F75F61E6A69F700D586F6 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = E85F75E91E6A69F700D586F6 /* AppDelegate.m */; };
-		E85F75F71E6A69F700D586F6 /* FontFamily(iOS所有字体).m in Sources */ = {isa = PBXBuildFile; fileRef = E85F75EC1E6A69F700D586F6 /* FontFamily(iOS所有字体).m */; };
-		E85F75F81E6A69F700D586F6 /* Macro(常用宏).m in Sources */ = {isa = PBXBuildFile; fileRef = E85F75EE1E6A69F700D586F6 /* Macro(常用宏).m */; };
 		E85F75F91E6A69F700D586F6 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E85F75F11E6A69F700D586F6 /* LaunchScreen.storyboard */; };
 		E85F75FA1E6A69F700D586F6 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E85F75F21E6A69F700D586F6 /* Main.storyboard */; };
 		E85F75FE1E6A702C00D586F6 /* LFTabBarViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E85F75FD1E6A702C00D586F6 /* LFTabBarViewController.m */; };
@@ -23,15 +21,18 @@
 		E85F76081E6A96E500D586F6 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E85F76051E6A96E500D586F6 /* ViewController.m */; };
 		E85F760E1E6AAC4900D586F6 /* LFViewController1.m in Sources */ = {isa = PBXBuildFile; fileRef = E85F760D1E6AAC4900D586F6 /* LFViewController1.m */; };
 		E85F76111E6AAC5300D586F6 /* LFViewController2.m in Sources */ = {isa = PBXBuildFile; fileRef = E85F76101E6AAC5300D586F6 /* LFViewController2.m */; };
-		E85F76141E6AAC5D00D586F6 /* LFViewController3.m in Sources */ = {isa = PBXBuildFile; fileRef = E85F76131E6AAC5D00D586F6 /* LFViewController3.m */; };
-		E85F76171E6AB2B300D586F6 /* LFInteractiveTransitioning.m in Sources */ = {isa = PBXBuildFile; fileRef = E85F76161E6AB2B300D586F6 /* LFInteractiveTransitioning.m */; };
-		E85F761A1E6AB2C900D586F6 /* LFAnimatedTransitioning.m in Sources */ = {isa = PBXBuildFile; fileRef = E85F76191E6AB2C900D586F6 /* LFAnimatedTransitioning.m */; };
-		E85F761D1E6AB68800D586F6 /* LFViewController4.m in Sources */ = {isa = PBXBuildFile; fileRef = E85F761C1E6AB68800D586F6 /* LFViewController4.m */; };
-		E85F76201E6AB69000D586F6 /* LFViewController5.m in Sources */ = {isa = PBXBuildFile; fileRef = E85F761F1E6AB69000D586F6 /* LFViewController5.m */; };
-		E85F76231E6AB69A00D586F6 /* LFViewController6.m in Sources */ = {isa = PBXBuildFile; fileRef = E85F76221E6AB69A00D586F6 /* LFViewController6.m */; };
-		E85F76261E6AB6A100D586F6 /* LFViewController7.m in Sources */ = {isa = PBXBuildFile; fileRef = E85F76251E6AB6A100D586F6 /* LFViewController7.m */; };
 		E85F76291E6ABBB900D586F6 /* LFBaseViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E85F76281E6ABBB900D586F6 /* LFBaseViewController.m */; };
-		E85F762C1E6B9FF400D586F6 /* LFBaseTabBarVC.m in Sources */ = {isa = PBXBuildFile; fileRef = E85F762B1E6B9FF400D586F6 /* LFBaseTabBarVC.m */; };
+		E85F76B41E78146200D586F6 /* LFNavigationController.m in Sources */ = {isa = PBXBuildFile; fileRef = E85F76B31E78146200D586F6 /* LFNavigationController.m */; };
+		E85F77271E783BCC00D586F6 /* NSCalendar+Init.m in Sources */ = {isa = PBXBuildFile; fileRef = E85F77141E783BCC00D586F6 /* NSCalendar+Init.m */; };
+		E85F77281E783BCC00D586F6 /* NSDate+Interval.m in Sources */ = {isa = PBXBuildFile; fileRef = E85F77161E783BCC00D586F6 /* NSDate+Interval.m */; };
+		E85F77291E783BCC00D586F6 /* NSObject+FileManager.m in Sources */ = {isa = PBXBuildFile; fileRef = E85F77181E783BCC00D586F6 /* NSObject+FileManager.m */; };
+		E85F772A1E783BCC00D586F6 /* UIBarButtonItem+Item.m in Sources */ = {isa = PBXBuildFile; fileRef = E85F771A1E783BCC00D586F6 /* UIBarButtonItem+Item.m */; };
+		E85F772B1E783BCC00D586F6 /* UIImage+Antialias.m in Sources */ = {isa = PBXBuildFile; fileRef = E85F771C1E783BCC00D586F6 /* UIImage+Antialias.m */; };
+		E85F772C1E783BCC00D586F6 /* UIImage+Image.m in Sources */ = {isa = PBXBuildFile; fileRef = E85F771E1E783BCC00D586F6 /* UIImage+Image.m */; };
+		E85F772D1E783BCC00D586F6 /* UIImageView+Header.m in Sources */ = {isa = PBXBuildFile; fileRef = E85F77201E783BCC00D586F6 /* UIImageView+Header.m */; };
+		E85F772E1E783BCC00D586F6 /* UITextField+Placeholder.m in Sources */ = {isa = PBXBuildFile; fileRef = E85F77221E783BCC00D586F6 /* UITextField+Placeholder.m */; };
+		E85F772F1E783BCC00D586F6 /* UIView+Frame.m in Sources */ = {isa = PBXBuildFile; fileRef = E85F77241E783BCC00D586F6 /* UIView+Frame.m */; };
+		E85F77301E783BCC00D586F6 /* UIView+Init.m in Sources */ = {isa = PBXBuildFile; fileRef = E85F77261E783BCC00D586F6 /* UIView+Init.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -66,24 +67,30 @@
 		E85F760D1E6AAC4900D586F6 /* LFViewController1.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LFViewController1.m; sourceTree = "<group>"; };
 		E85F760F1E6AAC5300D586F6 /* LFViewController2.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LFViewController2.h; sourceTree = "<group>"; };
 		E85F76101E6AAC5300D586F6 /* LFViewController2.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LFViewController2.m; sourceTree = "<group>"; };
-		E85F76121E6AAC5D00D586F6 /* LFViewController3.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LFViewController3.h; sourceTree = "<group>"; };
-		E85F76131E6AAC5D00D586F6 /* LFViewController3.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LFViewController3.m; sourceTree = "<group>"; };
-		E85F76151E6AB2B300D586F6 /* LFInteractiveTransitioning.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LFInteractiveTransitioning.h; sourceTree = "<group>"; };
-		E85F76161E6AB2B300D586F6 /* LFInteractiveTransitioning.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LFInteractiveTransitioning.m; sourceTree = "<group>"; };
-		E85F76181E6AB2C900D586F6 /* LFAnimatedTransitioning.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LFAnimatedTransitioning.h; sourceTree = "<group>"; };
-		E85F76191E6AB2C900D586F6 /* LFAnimatedTransitioning.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LFAnimatedTransitioning.m; sourceTree = "<group>"; };
-		E85F761B1E6AB68800D586F6 /* LFViewController4.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LFViewController4.h; sourceTree = "<group>"; };
-		E85F761C1E6AB68800D586F6 /* LFViewController4.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LFViewController4.m; sourceTree = "<group>"; };
-		E85F761E1E6AB69000D586F6 /* LFViewController5.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LFViewController5.h; sourceTree = "<group>"; };
-		E85F761F1E6AB69000D586F6 /* LFViewController5.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LFViewController5.m; sourceTree = "<group>"; };
-		E85F76211E6AB69A00D586F6 /* LFViewController6.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LFViewController6.h; sourceTree = "<group>"; };
-		E85F76221E6AB69A00D586F6 /* LFViewController6.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LFViewController6.m; sourceTree = "<group>"; };
-		E85F76241E6AB6A100D586F6 /* LFViewController7.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LFViewController7.h; sourceTree = "<group>"; };
-		E85F76251E6AB6A100D586F6 /* LFViewController7.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LFViewController7.m; sourceTree = "<group>"; };
 		E85F76271E6ABBB900D586F6 /* LFBaseViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LFBaseViewController.h; sourceTree = "<group>"; };
 		E85F76281E6ABBB900D586F6 /* LFBaseViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LFBaseViewController.m; sourceTree = "<group>"; };
-		E85F762A1E6B9FF400D586F6 /* LFBaseTabBarVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LFBaseTabBarVC.h; sourceTree = "<group>"; };
-		E85F762B1E6B9FF400D586F6 /* LFBaseTabBarVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LFBaseTabBarVC.m; sourceTree = "<group>"; };
+		E85F76B21E78146200D586F6 /* LFNavigationController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LFNavigationController.h; sourceTree = "<group>"; };
+		E85F76B31E78146200D586F6 /* LFNavigationController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LFNavigationController.m; sourceTree = "<group>"; };
+		E85F77131E783BCC00D586F6 /* NSCalendar+Init.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSCalendar+Init.h"; sourceTree = "<group>"; };
+		E85F77141E783BCC00D586F6 /* NSCalendar+Init.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSCalendar+Init.m"; sourceTree = "<group>"; };
+		E85F77151E783BCC00D586F6 /* NSDate+Interval.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSDate+Interval.h"; sourceTree = "<group>"; };
+		E85F77161E783BCC00D586F6 /* NSDate+Interval.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSDate+Interval.m"; sourceTree = "<group>"; };
+		E85F77171E783BCC00D586F6 /* NSObject+FileManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSObject+FileManager.h"; sourceTree = "<group>"; };
+		E85F77181E783BCC00D586F6 /* NSObject+FileManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSObject+FileManager.m"; sourceTree = "<group>"; };
+		E85F77191E783BCC00D586F6 /* UIBarButtonItem+Item.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIBarButtonItem+Item.h"; sourceTree = "<group>"; };
+		E85F771A1E783BCC00D586F6 /* UIBarButtonItem+Item.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIBarButtonItem+Item.m"; sourceTree = "<group>"; };
+		E85F771B1E783BCC00D586F6 /* UIImage+Antialias.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImage+Antialias.h"; sourceTree = "<group>"; };
+		E85F771C1E783BCC00D586F6 /* UIImage+Antialias.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImage+Antialias.m"; sourceTree = "<group>"; };
+		E85F771D1E783BCC00D586F6 /* UIImage+Image.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImage+Image.h"; sourceTree = "<group>"; };
+		E85F771E1E783BCC00D586F6 /* UIImage+Image.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImage+Image.m"; sourceTree = "<group>"; };
+		E85F771F1E783BCC00D586F6 /* UIImageView+Header.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImageView+Header.h"; sourceTree = "<group>"; };
+		E85F77201E783BCC00D586F6 /* UIImageView+Header.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImageView+Header.m"; sourceTree = "<group>"; };
+		E85F77211E783BCC00D586F6 /* UITextField+Placeholder.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UITextField+Placeholder.h"; sourceTree = "<group>"; };
+		E85F77221E783BCC00D586F6 /* UITextField+Placeholder.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UITextField+Placeholder.m"; sourceTree = "<group>"; };
+		E85F77231E783BCC00D586F6 /* UIView+Frame.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+Frame.h"; sourceTree = "<group>"; };
+		E85F77241E783BCC00D586F6 /* UIView+Frame.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+Frame.m"; sourceTree = "<group>"; };
+		E85F77251E783BCC00D586F6 /* UIView+Init.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+Init.h"; sourceTree = "<group>"; };
+		E85F77261E783BCC00D586F6 /* UIView+Init.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+Init.m"; sourceTree = "<group>"; };
 		F1F3DD5F913FD399E6B1A34D /* libPods-LFAttribute.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-LFAttribute.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
@@ -168,7 +175,6 @@
 			isa = PBXGroup;
 			children = (
 				E85F75FF1E6A96E500D586F6 /* AttributVC(富文本) */,
-				E85F762D1E6C128200D586F6 /* 分类测试 */,
 				E85F760B1E6AAC3400D586F6 /* 其他测试VC */,
 				E85F75E61E6A69F700D586F6 /* Main */,
 				E85F75E71E6A69F700D586F6 /* Other */,
@@ -180,10 +186,10 @@
 		E85F75E61E6A69F700D586F6 /* Main */ = {
 			isa = PBXGroup;
 			children = (
-				E85F762A1E6B9FF400D586F6 /* LFBaseTabBarVC.h */,
-				E85F762B1E6B9FF400D586F6 /* LFBaseTabBarVC.m */,
 				E85F75FC1E6A702C00D586F6 /* LFTabBarViewController.h */,
 				E85F75FD1E6A702C00D586F6 /* LFTabBarViewController.m */,
+				E85F76B21E78146200D586F6 /* LFNavigationController.h */,
+				E85F76B31E78146200D586F6 /* LFNavigationController.m */,
 				E85F76091E6A98D400D586F6 /* TabBarController.h */,
 				E85F760A1E6A98D400D586F6 /* TabBarController.m */,
 			);
@@ -193,7 +199,7 @@
 		E85F75E71E6A69F700D586F6 /* Other */ = {
 			isa = PBXGroup;
 			children = (
-				E85F75EA1E6A69F700D586F6 /* Category */,
+				E85F77121E783BBB00D586F6 /* Category */,
 				E85F75E81E6A69F700D586F6 /* AppDelegate.h */,
 				E85F75E91E6A69F700D586F6 /* AppDelegate.m */,
 				E85F75EB1E6A69F700D586F6 /* FontFamily(iOS所有字体).h */,
@@ -202,13 +208,6 @@
 				E85F75EE1E6A69F700D586F6 /* Macro(常用宏).m */,
 			);
 			path = Other;
-			sourceTree = "<group>";
-		};
-		E85F75EA1E6A69F700D586F6 /* Category */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			path = Category;
 			sourceTree = "<group>";
 		};
 		E85F75F01E6A69F700D586F6 /* StoryBoards */ = {
@@ -242,30 +241,35 @@
 				E85F760D1E6AAC4900D586F6 /* LFViewController1.m */,
 				E85F760F1E6AAC5300D586F6 /* LFViewController2.h */,
 				E85F76101E6AAC5300D586F6 /* LFViewController2.m */,
-				E85F76121E6AAC5D00D586F6 /* LFViewController3.h */,
-				E85F76131E6AAC5D00D586F6 /* LFViewController3.m */,
-				E85F761B1E6AB68800D586F6 /* LFViewController4.h */,
-				E85F761C1E6AB68800D586F6 /* LFViewController4.m */,
-				E85F761E1E6AB69000D586F6 /* LFViewController5.h */,
-				E85F761F1E6AB69000D586F6 /* LFViewController5.m */,
-				E85F76211E6AB69A00D586F6 /* LFViewController6.h */,
-				E85F76221E6AB69A00D586F6 /* LFViewController6.m */,
-				E85F76241E6AB6A100D586F6 /* LFViewController7.h */,
-				E85F76251E6AB6A100D586F6 /* LFViewController7.m */,
-				E85F76151E6AB2B300D586F6 /* LFInteractiveTransitioning.h */,
-				E85F76161E6AB2B300D586F6 /* LFInteractiveTransitioning.m */,
-				E85F76181E6AB2C900D586F6 /* LFAnimatedTransitioning.h */,
-				E85F76191E6AB2C900D586F6 /* LFAnimatedTransitioning.m */,
 			);
 			path = "其他测试VC";
 			sourceTree = "<group>";
 		};
-		E85F762D1E6C128200D586F6 /* 分类测试 */ = {
+		E85F77121E783BBB00D586F6 /* Category */ = {
 			isa = PBXGroup;
 			children = (
+				E85F77131E783BCC00D586F6 /* NSCalendar+Init.h */,
+				E85F77141E783BCC00D586F6 /* NSCalendar+Init.m */,
+				E85F77151E783BCC00D586F6 /* NSDate+Interval.h */,
+				E85F77161E783BCC00D586F6 /* NSDate+Interval.m */,
+				E85F77171E783BCC00D586F6 /* NSObject+FileManager.h */,
+				E85F77181E783BCC00D586F6 /* NSObject+FileManager.m */,
+				E85F77191E783BCC00D586F6 /* UIBarButtonItem+Item.h */,
+				E85F771A1E783BCC00D586F6 /* UIBarButtonItem+Item.m */,
+				E85F771B1E783BCC00D586F6 /* UIImage+Antialias.h */,
+				E85F771C1E783BCC00D586F6 /* UIImage+Antialias.m */,
+				E85F771D1E783BCC00D586F6 /* UIImage+Image.h */,
+				E85F771E1E783BCC00D586F6 /* UIImage+Image.m */,
+				E85F771F1E783BCC00D586F6 /* UIImageView+Header.h */,
+				E85F77201E783BCC00D586F6 /* UIImageView+Header.m */,
+				E85F77211E783BCC00D586F6 /* UITextField+Placeholder.h */,
+				E85F77221E783BCC00D586F6 /* UITextField+Placeholder.m */,
+				E85F77231E783BCC00D586F6 /* UIView+Frame.h */,
+				E85F77241E783BCC00D586F6 /* UIView+Frame.m */,
+				E85F77251E783BCC00D586F6 /* UIView+Init.h */,
+				E85F77261E783BCC00D586F6 /* UIView+Init.m */,
 			);
-			name = "分类测试";
-			path = "其他测试VC/分类测试";
+			path = Category;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -394,24 +398,25 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				E85F76171E6AB2B300D586F6 /* LFInteractiveTransitioning.m in Sources */,
+				E85F76B41E78146200D586F6 /* LFNavigationController.m in Sources */,
 				E85F75FE1E6A702C00D586F6 /* LFTabBarViewController.m in Sources */,
 				E85F76071E6A96E500D586F6 /* LFAttributteNVC.m in Sources */,
+				E85F77271E783BCC00D586F6 /* NSCalendar+Init.m in Sources */,
 				E85F760E1E6AAC4900D586F6 /* LFViewController1.m in Sources */,
+				E85F772A1E783BCC00D586F6 /* UIBarButtonItem+Item.m in Sources */,
 				E85F76081E6A96E500D586F6 /* ViewController.m in Sources */,
-				E85F76231E6AB69A00D586F6 /* LFViewController6.m in Sources */,
-				E85F76201E6AB69000D586F6 /* LFViewController5.m in Sources */,
 				E85F75931E6128A000D586F6 /* main.m in Sources */,
-				E85F75F81E6A69F700D586F6 /* Macro(常用宏).m in Sources */,
-				E85F75F71E6A69F700D586F6 /* FontFamily(iOS所有字体).m in Sources */,
+				E85F77301E783BCC00D586F6 /* UIView+Init.m in Sources */,
+				E85F77281E783BCC00D586F6 /* NSDate+Interval.m in Sources */,
+				E85F772C1E783BCC00D586F6 /* UIImage+Image.m in Sources */,
+				E85F772F1E783BCC00D586F6 /* UIView+Frame.m in Sources */,
 				E85F76111E6AAC5300D586F6 /* LFViewController2.m in Sources */,
+				E85F772B1E783BCC00D586F6 /* UIImage+Antialias.m in Sources */,
 				E85F76291E6ABBB900D586F6 /* LFBaseViewController.m in Sources */,
-				E85F76261E6AB6A100D586F6 /* LFViewController7.m in Sources */,
-				E85F761D1E6AB68800D586F6 /* LFViewController4.m in Sources */,
-				E85F76141E6AAC5D00D586F6 /* LFViewController3.m in Sources */,
-				E85F761A1E6AB2C900D586F6 /* LFAnimatedTransitioning.m in Sources */,
-				E85F762C1E6B9FF400D586F6 /* LFBaseTabBarVC.m in Sources */,
 				E85F75F61E6A69F700D586F6 /* AppDelegate.m in Sources */,
+				E85F77291E783BCC00D586F6 /* NSObject+FileManager.m in Sources */,
+				E85F772E1E783BCC00D586F6 /* UITextField+Placeholder.m in Sources */,
+				E85F772D1E783BCC00D586F6 /* UIImageView+Header.m in Sources */,
 				E85F76061E6A96E500D586F6 /* AttributteStringVC.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

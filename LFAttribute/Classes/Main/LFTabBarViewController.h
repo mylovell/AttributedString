@@ -6,8 +6,8 @@
 //  Copyright © 2017年 LuoFengcompany. All rights reserved.
 //
 
-#import "LFBaseTabBarVC.h"
+#import <UIKit/UIKit.h>
 
-@interface LFTabBarViewController : LFBaseTabBarVC
+@interface LFTabBarViewController : UITabBarController
 
 @end

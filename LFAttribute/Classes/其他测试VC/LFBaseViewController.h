@@ -9,14 +9,6 @@
 #import <UIKit/UIKit.h>
 
 
-@interface LFBaseViewController : UIViewController{
-@public NSString *testValue;
-}
-
-//@property (strong, nonatomic) NSString *testValue;
-
-- (void)setSuper_testValue:(NSString *)value;
-
-- (NSString *)getSuper_testValue;
+@interface LFBaseViewController : UIViewController
 
 @end

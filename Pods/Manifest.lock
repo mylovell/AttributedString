@@ -22,6 +22,9 @@ PODS:
   - IQKeyboardManager (4.0.8)
   - Masonry (1.0.2)
   - MBProgressHUD (1.0.0)
+  - SDWebImage (3.8.2):
+    - SDWebImage/Core (= 3.8.2)
+  - SDWebImage/Core (3.8.2)
   - Toast (3.1.0)
 
 DEPENDENCIES:
@@ -31,6 +34,7 @@ DEPENDENCIES:
   - IQKeyboardManager
   - Masonry
   - MBProgressHUD (~> 1.0.0)
+  - SDWebImage (~> 3.8)
   - Toast (~> 3.1.0)
 
 SPEC CHECKSUMS:
@@ -40,8 +44,9 @@ SPEC CHECKSUMS:
   IQKeyboardManager: 1a8189fa153bf09044355ee0ad36826f6767e7f7
   Masonry: 7c429b56da9d4ee0bbb3ed77a5ea710d6a5df39e
   MBProgressHUD: 4890f671c94e8a0f3cf959aa731e9de2f036d71a
+  SDWebImage: 098e97e6176540799c27e804c96653ee0833d13c
   Toast: 14a93686d6c8bfe2727afd342414e35660a8a1f3
 
-PODFILE CHECKSUM: be816eaa04496a07788ee78a52bc73c623c1817e
+PODFILE CHECKSUM: d4beb6ecd14979b89dada048c42f0336e0ef7d35
 
 COCOAPODS: 1.2.0
