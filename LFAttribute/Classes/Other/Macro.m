@@ -6,7 +6,7 @@
 //  Copyright © 2017年 LuoFengcompany. All rights reserved.
 //
 
-#import "Macro(常用宏).h"
+#import "Macro.h"
 
 @implementation Macro
 

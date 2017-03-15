@@ -8,13 +8,8 @@
 
 /* Begin PBXBuildFile section */
 		1D0E2D4B99F8378308BDA9BA /* libPods-LFAttribute.a in Frameworks */ = {isa = PBXBuildFile; fileRef = F1F3DD5F913FD399E6B1A34D /* libPods-LFAttribute.a */; };
-		E85F75931E6128A000D586F6 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = E85F75921E6128A000D586F6 /* main.m */; };
 		E85F759E1E6128A000D586F6 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E85F759D1E6128A000D586F6 /* Assets.xcassets */; };
-		E85F75D01E62CC4600D586F6 /* 120x120.png in Resources */ = {isa = PBXBuildFile; fileRef = E85F75CE1E62CC4600D586F6 /* 120x120.png */; };
-		E85F75D11E62CC4600D586F6 /* bitch.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = E85F75CF1E62CC4600D586F6 /* bitch.jpeg */; };
 		E85F75F61E6A69F700D586F6 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = E85F75E91E6A69F700D586F6 /* AppDelegate.m */; };
-		E85F75F91E6A69F700D586F6 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E85F75F11E6A69F700D586F6 /* LaunchScreen.storyboard */; };
-		E85F75FA1E6A69F700D586F6 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E85F75F21E6A69F700D586F6 /* Main.storyboard */; };
 		E85F75FE1E6A702C00D586F6 /* LFTabBarViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E85F75FD1E6A702C00D586F6 /* LFTabBarViewController.m */; };
 		E85F76061E6A96E500D586F6 /* AttributteStringVC.m in Sources */ = {isa = PBXBuildFile; fileRef = E85F76011E6A96E500D586F6 /* AttributteStringVC.m */; };
 		E85F76071E6A96E500D586F6 /* LFAttributteNVC.m in Sources */ = {isa = PBXBuildFile; fileRef = E85F76031E6A96E500D586F6 /* LFAttributteNVC.m */; };
@@ -33,25 +28,24 @@
 		E85F772E1E783BCC00D586F6 /* UITextField+Placeholder.m in Sources */ = {isa = PBXBuildFile; fileRef = E85F77221E783BCC00D586F6 /* UITextField+Placeholder.m */; };
 		E85F772F1E783BCC00D586F6 /* UIView+Frame.m in Sources */ = {isa = PBXBuildFile; fileRef = E85F77241E783BCC00D586F6 /* UIView+Frame.m */; };
 		E85F77301E783BCC00D586F6 /* UIView+Init.m in Sources */ = {isa = PBXBuildFile; fileRef = E85F77261E783BCC00D586F6 /* UIView+Init.m */; };
+		E85F77361E79880E00D586F6 /* 120x120.png in Resources */ = {isa = PBXBuildFile; fileRef = E85F77341E79880E00D586F6 /* 120x120.png */; };
+		E85F77371E79880E00D586F6 /* bitch.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = E85F77351E79880E00D586F6 /* bitch.jpeg */; };
+		E85F773A1E79882C00D586F6 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E85F77381E79882C00D586F6 /* LaunchScreen.storyboard */; };
+		E85F773C1E79886600D586F6 /* Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = E85F773B1E79886600D586F6 /* Info.plist */; };
+		E85F773E1E7988B000D586F6 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = E85F773D1E7988B000D586F6 /* main.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		57C3300E0DDD2D724899F34B /* Pods-LFAttribute.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LFAttribute.debug.xcconfig"; path = "Pods/Target Support Files/Pods-LFAttribute/Pods-LFAttribute.debug.xcconfig"; sourceTree = "<group>"; };
 		A3446F361A76E2DD16305C7D /* Pods-LFAttribute.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LFAttribute.release.xcconfig"; path = "Pods/Target Support Files/Pods-LFAttribute/Pods-LFAttribute.release.xcconfig"; sourceTree = "<group>"; };
 		E85F758E1E6128A000D586F6 /* LFAttribute.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LFAttribute.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		E85F75921E6128A000D586F6 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		E85F759D1E6128A000D586F6 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		E85F75A21E6128A000D586F6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; name = Info.plist; path = ../Info.plist; sourceTree = "<group>"; };
-		E85F75CE1E62CC4600D586F6 /* 120x120.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 120x120.png; sourceTree = "<group>"; };
-		E85F75CF1E62CC4600D586F6 /* bitch.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = bitch.jpeg; sourceTree = "<group>"; };
 		E85F75E81E6A69F700D586F6 /* AppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		E85F75E91E6A69F700D586F6 /* AppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
 		E85F75EB1E6A69F700D586F6 /* FontFamily(iOS所有字体).h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "FontFamily(iOS所有字体).h"; sourceTree = "<group>"; };
 		E85F75EC1E6A69F700D586F6 /* FontFamily(iOS所有字体).m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "FontFamily(iOS所有字体).m"; sourceTree = "<group>"; };
-		E85F75ED1E6A69F700D586F6 /* Macro(常用宏).h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "Macro(常用宏).h"; sourceTree = "<group>"; };
-		E85F75EE1E6A69F700D586F6 /* Macro(常用宏).m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "Macro(常用宏).m"; sourceTree = "<group>"; };
-		E85F75F11E6A69F700D586F6 /* LaunchScreen.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = LaunchScreen.storyboard; sourceTree = "<group>"; };
-		E85F75F21E6A69F700D586F6 /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Main.storyboard; sourceTree = "<group>"; };
+		E85F75ED1E6A69F700D586F6 /* Macro.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Macro.h; sourceTree = "<group>"; };
+		E85F75EE1E6A69F700D586F6 /* Macro.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Macro.m; sourceTree = "<group>"; };
 		E85F75FB1E6A6A4A00D586F6 /* PrefixHeader.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PrefixHeader.pch; sourceTree = "<group>"; };
 		E85F75FC1E6A702C00D586F6 /* LFTabBarViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LFTabBarViewController.h; sourceTree = "<group>"; };
 		E85F75FD1E6A702C00D586F6 /* LFTabBarViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LFTabBarViewController.m; sourceTree = "<group>"; };
@@ -91,6 +85,11 @@
 		E85F77241E783BCC00D586F6 /* UIView+Frame.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+Frame.m"; sourceTree = "<group>"; };
 		E85F77251E783BCC00D586F6 /* UIView+Init.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+Init.h"; sourceTree = "<group>"; };
 		E85F77261E783BCC00D586F6 /* UIView+Init.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+Init.m"; sourceTree = "<group>"; };
+		E85F77341E79880E00D586F6 /* 120x120.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 120x120.png; sourceTree = "<group>"; };
+		E85F77351E79880E00D586F6 /* bitch.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = bitch.jpeg; sourceTree = "<group>"; };
+		E85F77391E79882C00D586F6 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		E85F773B1E79886600D586F6 /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E85F773D1E7988B000D586F6 /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		F1F3DD5F913FD399E6B1A34D /* libPods-LFAttribute.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-LFAttribute.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
@@ -145,30 +144,13 @@
 			isa = PBXGroup;
 			children = (
 				E85F75DE1E6A69F700D586F6 /* Classes */,
-				E85F75911E6128A000D586F6 /* Supporting Files */,
+				E85F75FB1E6A6A4A00D586F6 /* PrefixHeader.pch */,
+				E85F773B1E79886600D586F6 /* Info.plist */,
+				E85F759D1E6128A000D586F6 /* Assets.xcassets */,
+				E85F77381E79882C00D586F6 /* LaunchScreen.storyboard */,
+				E85F77311E7987B600D586F6 /* Supporting Files */,
 			);
 			path = LFAttribute;
-			sourceTree = "<group>";
-		};
-		E85F75911E6128A000D586F6 /* Supporting Files */ = {
-			isa = PBXGroup;
-			children = (
-				E85F75CD1E62CC3300D586F6 /* 图片 */,
-				E85F759D1E6128A000D586F6 /* Assets.xcassets */,
-				E85F75921E6128A000D586F6 /* main.m */,
-				E85F75FB1E6A6A4A00D586F6 /* PrefixHeader.pch */,
-			);
-			name = "Supporting Files";
-			sourceTree = "<group>";
-		};
-		E85F75CD1E62CC3300D586F6 /* 图片 */ = {
-			isa = PBXGroup;
-			children = (
-				E85F75A21E6128A000D586F6 /* Info.plist */,
-				E85F75CE1E62CC4600D586F6 /* 120x120.png */,
-				E85F75CF1E62CC4600D586F6 /* bitch.jpeg */,
-			);
-			path = "图片";
 			sourceTree = "<group>";
 		};
 		E85F75DE1E6A69F700D586F6 /* Classes */ = {
@@ -178,7 +160,6 @@
 				E85F760B1E6AAC3400D586F6 /* 其他测试VC */,
 				E85F75E61E6A69F700D586F6 /* Main */,
 				E85F75E71E6A69F700D586F6 /* Other */,
-				E85F75F01E6A69F700D586F6 /* StoryBoards */,
 			);
 			path = Classes;
 			sourceTree = "<group>";
@@ -204,19 +185,11 @@
 				E85F75E91E6A69F700D586F6 /* AppDelegate.m */,
 				E85F75EB1E6A69F700D586F6 /* FontFamily(iOS所有字体).h */,
 				E85F75EC1E6A69F700D586F6 /* FontFamily(iOS所有字体).m */,
-				E85F75ED1E6A69F700D586F6 /* Macro(常用宏).h */,
-				E85F75EE1E6A69F700D586F6 /* Macro(常用宏).m */,
+				E85F75ED1E6A69F700D586F6 /* Macro.h */,
+				E85F75EE1E6A69F700D586F6 /* Macro.m */,
+				E85F773D1E7988B000D586F6 /* main.m */,
 			);
 			path = Other;
-			sourceTree = "<group>";
-		};
-		E85F75F01E6A69F700D586F6 /* StoryBoards */ = {
-			isa = PBXGroup;
-			children = (
-				E85F75F11E6A69F700D586F6 /* LaunchScreen.storyboard */,
-				E85F75F21E6A69F700D586F6 /* Main.storyboard */,
-			);
-			path = StoryBoards;
 			sourceTree = "<group>";
 		};
 		E85F75FF1E6A96E500D586F6 /* AttributVC(富文本) */ = {
@@ -270,6 +243,31 @@
 				E85F77261E783BCC00D586F6 /* UIView+Init.m */,
 			);
 			path = Category;
+			sourceTree = "<group>";
+		};
+		E85F77311E7987B600D586F6 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				E85F77331E79880E00D586F6 /* 图片 */,
+				E85F77321E79880900D586F6 /* 启动图片 */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		E85F77321E79880900D586F6 /* 启动图片 */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = "启动图片";
+			sourceTree = "<group>";
+		};
+		E85F77331E79880E00D586F6 /* 图片 */ = {
+			isa = PBXGroup;
+			children = (
+				E85F77341E79880E00D586F6 /* 120x120.png */,
+				E85F77351E79880E00D586F6 /* bitch.jpeg */,
+			);
+			path = "图片";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -335,11 +333,11 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				E85F75D01E62CC4600D586F6 /* 120x120.png in Resources */,
-				E85F75FA1E6A69F700D586F6 /* Main.storyboard in Resources */,
-				E85F75F91E6A69F700D586F6 /* LaunchScreen.storyboard in Resources */,
-				E85F75D11E62CC4600D586F6 /* bitch.jpeg in Resources */,
+				E85F77361E79880E00D586F6 /* 120x120.png in Resources */,
+				E85F77371E79880E00D586F6 /* bitch.jpeg in Resources */,
+				E85F773A1E79882C00D586F6 /* LaunchScreen.storyboard in Resources */,
 				E85F759E1E6128A000D586F6 /* Assets.xcassets in Resources */,
+				E85F773C1E79886600D586F6 /* Info.plist in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -405,10 +403,10 @@
 				E85F760E1E6AAC4900D586F6 /* LFViewController1.m in Sources */,
 				E85F772A1E783BCC00D586F6 /* UIBarButtonItem+Item.m in Sources */,
 				E85F76081E6A96E500D586F6 /* ViewController.m in Sources */,
-				E85F75931E6128A000D586F6 /* main.m in Sources */,
 				E85F77301E783BCC00D586F6 /* UIView+Init.m in Sources */,
 				E85F77281E783BCC00D586F6 /* NSDate+Interval.m in Sources */,
 				E85F772C1E783BCC00D586F6 /* UIImage+Image.m in Sources */,
+				E85F773E1E7988B000D586F6 /* main.m in Sources */,
 				E85F772F1E783BCC00D586F6 /* UIView+Frame.m in Sources */,
 				E85F76111E6AAC5300D586F6 /* LFViewController2.m in Sources */,
 				E85F772B1E783BCC00D586F6 /* UIImage+Antialias.m in Sources */,
@@ -422,6 +420,17 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		E85F77381E79882C00D586F6 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				E85F77391E79882C00D586F6 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
 		E85F75A31E6128A000D586F6 /* Debug */ = {
