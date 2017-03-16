@@ -10,5 +10,13 @@
 
 @interface GlobalConstant : NSObject
 
+/** 全局统一的间距 */
+UIKIT_EXTERN CGFloat const Margin;
+
+/** UITabBar的高度 */
+UIKIT_EXTERN CGFloat const TabBarH;
+
+/** 导航栏最大的Y值 */
+UIKIT_EXTERN CGFloat const NavMaxY;
 
 @end

@@ -10,4 +10,13 @@
 
 @implementation GlobalConstant
 
+/** 全局统一的间距 */
+CGFloat const BSMargin = 10;
+
+/** UITabBar的高度 */
+CGFloat const TabBarH = 49;
+
+/** 导航栏最大的Y值 */
+CGFloat const NavMaxY = 64;
+
 @end
