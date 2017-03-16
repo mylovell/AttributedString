@@ -8,15 +8,20 @@
 
 /* Begin PBXBuildFile section */
 		1D0E2D4B99F8378308BDA9BA /* libPods-LFAttribute.a in Frameworks */ = {isa = PBXBuildFile; fileRef = F1F3DD5F913FD399E6B1A34D /* libPods-LFAttribute.a */; };
+		A2C0A1A31E7A6DFC0038798A /* LFBaseViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A2C0A19E1E7A6DFC0038798A /* LFBaseViewController.m */; };
+		A2C0A1AA1E7A6E7B0038798A /* LFViewController2.m in Sources */ = {isa = PBXBuildFile; fileRef = A2C0A1A71E7A6E7B0038798A /* LFViewController2.m */; };
+		A2C0A1B01E7A6EA00038798A /* LFViewController1.m in Sources */ = {isa = PBXBuildFile; fileRef = A2C0A1AD1E7A6EA00038798A /* LFViewController1.m */; };
+		A2C0A1B61E7A6FED0038798A /* LFTabOneNC.m in Sources */ = {isa = PBXBuildFile; fileRef = A2C0A1B51E7A6FED0038798A /* LFTabOneNC.m */; };
+		A2C0A1B91E7A70010038798A /* LFTabTwoNC.m in Sources */ = {isa = PBXBuildFile; fileRef = A2C0A1B81E7A70010038798A /* LFTabTwoNC.m */; };
+		A2C0A1BC1E7A70140038798A /* LFTabThreeNC.m in Sources */ = {isa = PBXBuildFile; fileRef = A2C0A1BB1E7A70140038798A /* LFTabThreeNC.m */; };
+		A2C0A1BF1E7A7A980038798A /* GlobalConstant.m in Sources */ = {isa = PBXBuildFile; fileRef = A2C0A1BE1E7A7A980038798A /* GlobalConstant.m */; };
+		A2C0A1C21E7A7F630038798A /* LFTabOneCell.m in Sources */ = {isa = PBXBuildFile; fileRef = A2C0A1C11E7A7F630038798A /* LFTabOneCell.m */; };
 		E85F759E1E6128A000D586F6 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E85F759D1E6128A000D586F6 /* Assets.xcassets */; };
 		E85F75F61E6A69F700D586F6 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = E85F75E91E6A69F700D586F6 /* AppDelegate.m */; };
 		E85F75FE1E6A702C00D586F6 /* LFTabBarViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E85F75FD1E6A702C00D586F6 /* LFTabBarViewController.m */; };
 		E85F76061E6A96E500D586F6 /* AttributteStringVC.m in Sources */ = {isa = PBXBuildFile; fileRef = E85F76011E6A96E500D586F6 /* AttributteStringVC.m */; };
 		E85F76071E6A96E500D586F6 /* LFAttributteNVC.m in Sources */ = {isa = PBXBuildFile; fileRef = E85F76031E6A96E500D586F6 /* LFAttributteNVC.m */; };
 		E85F76081E6A96E500D586F6 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E85F76051E6A96E500D586F6 /* ViewController.m */; };
-		E85F760E1E6AAC4900D586F6 /* LFViewController1.m in Sources */ = {isa = PBXBuildFile; fileRef = E85F760D1E6AAC4900D586F6 /* LFViewController1.m */; };
-		E85F76111E6AAC5300D586F6 /* LFViewController2.m in Sources */ = {isa = PBXBuildFile; fileRef = E85F76101E6AAC5300D586F6 /* LFViewController2.m */; };
-		E85F76291E6ABBB900D586F6 /* LFBaseViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E85F76281E6ABBB900D586F6 /* LFBaseViewController.m */; };
 		E85F76B41E78146200D586F6 /* LFNavigationController.m in Sources */ = {isa = PBXBuildFile; fileRef = E85F76B31E78146200D586F6 /* LFNavigationController.m */; };
 		E85F77271E783BCC00D586F6 /* NSCalendar+Init.m in Sources */ = {isa = PBXBuildFile; fileRef = E85F77141E783BCC00D586F6 /* NSCalendar+Init.m */; };
 		E85F77281E783BCC00D586F6 /* NSDate+Interval.m in Sources */ = {isa = PBXBuildFile; fileRef = E85F77161E783BCC00D586F6 /* NSDate+Interval.m */; };
@@ -37,6 +42,22 @@
 
 /* Begin PBXFileReference section */
 		57C3300E0DDD2D724899F34B /* Pods-LFAttribute.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LFAttribute.debug.xcconfig"; path = "Pods/Target Support Files/Pods-LFAttribute/Pods-LFAttribute.debug.xcconfig"; sourceTree = "<group>"; };
+		A2C0A19D1E7A6DFC0038798A /* LFBaseViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LFBaseViewController.h; sourceTree = "<group>"; };
+		A2C0A19E1E7A6DFC0038798A /* LFBaseViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LFBaseViewController.m; sourceTree = "<group>"; };
+		A2C0A1A61E7A6E7B0038798A /* LFViewController2.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LFViewController2.h; sourceTree = "<group>"; };
+		A2C0A1A71E7A6E7B0038798A /* LFViewController2.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LFViewController2.m; sourceTree = "<group>"; };
+		A2C0A1AC1E7A6EA00038798A /* LFViewController1.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LFViewController1.h; sourceTree = "<group>"; };
+		A2C0A1AD1E7A6EA00038798A /* LFViewController1.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LFViewController1.m; sourceTree = "<group>"; };
+		A2C0A1B41E7A6FED0038798A /* LFTabOneNC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LFTabOneNC.h; sourceTree = "<group>"; };
+		A2C0A1B51E7A6FED0038798A /* LFTabOneNC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LFTabOneNC.m; sourceTree = "<group>"; };
+		A2C0A1B71E7A70010038798A /* LFTabTwoNC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LFTabTwoNC.h; sourceTree = "<group>"; };
+		A2C0A1B81E7A70010038798A /* LFTabTwoNC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LFTabTwoNC.m; sourceTree = "<group>"; };
+		A2C0A1BA1E7A70140038798A /* LFTabThreeNC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LFTabThreeNC.h; sourceTree = "<group>"; };
+		A2C0A1BB1E7A70140038798A /* LFTabThreeNC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LFTabThreeNC.m; sourceTree = "<group>"; };
+		A2C0A1BD1E7A7A980038798A /* GlobalConstant.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GlobalConstant.h; sourceTree = "<group>"; };
+		A2C0A1BE1E7A7A980038798A /* GlobalConstant.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GlobalConstant.m; sourceTree = "<group>"; };
+		A2C0A1C01E7A7F630038798A /* LFTabOneCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LFTabOneCell.h; sourceTree = "<group>"; };
+		A2C0A1C11E7A7F630038798A /* LFTabOneCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LFTabOneCell.m; sourceTree = "<group>"; };
 		A3446F361A76E2DD16305C7D /* Pods-LFAttribute.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LFAttribute.release.xcconfig"; path = "Pods/Target Support Files/Pods-LFAttribute/Pods-LFAttribute.release.xcconfig"; sourceTree = "<group>"; };
 		E85F758E1E6128A000D586F6 /* LFAttribute.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LFAttribute.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		E85F759D1E6128A000D586F6 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -57,12 +78,6 @@
 		E85F76051E6A96E500D586F6 /* ViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 		E85F76091E6A98D400D586F6 /* TabBarController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TabBarController.h; sourceTree = "<group>"; };
 		E85F760A1E6A98D400D586F6 /* TabBarController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TabBarController.m; sourceTree = "<group>"; };
-		E85F760C1E6AAC4900D586F6 /* LFViewController1.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LFViewController1.h; sourceTree = "<group>"; };
-		E85F760D1E6AAC4900D586F6 /* LFViewController1.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LFViewController1.m; sourceTree = "<group>"; };
-		E85F760F1E6AAC5300D586F6 /* LFViewController2.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LFViewController2.h; sourceTree = "<group>"; };
-		E85F76101E6AAC5300D586F6 /* LFViewController2.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LFViewController2.m; sourceTree = "<group>"; };
-		E85F76271E6ABBB900D586F6 /* LFBaseViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LFBaseViewController.h; sourceTree = "<group>"; };
-		E85F76281E6ABBB900D586F6 /* LFBaseViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LFBaseViewController.m; sourceTree = "<group>"; };
 		E85F76B21E78146200D586F6 /* LFNavigationController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LFNavigationController.h; sourceTree = "<group>"; };
 		E85F76B31E78146200D586F6 /* LFNavigationController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LFNavigationController.m; sourceTree = "<group>"; };
 		E85F77131E783BCC00D586F6 /* NSCalendar+Init.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSCalendar+Init.h"; sourceTree = "<group>"; };
@@ -114,6 +129,114 @@
 			name = Pods;
 			sourceTree = "<group>";
 		};
+		A2C0A1951E7A6DFC0038798A /* Tab1 */ = {
+			isa = PBXGroup;
+			children = (
+				A2C0A1AB1E7A6EA00038798A /* C */,
+				A2C0A1AE1E7A6EA00038798A /* M */,
+				A2C0A1AF1E7A6EA00038798A /* V */,
+			);
+			path = Tab1;
+			sourceTree = "<group>";
+		};
+		A2C0A1981E7A6DFC0038798A /* Tab2 */ = {
+			isa = PBXGroup;
+			children = (
+				A2C0A1A51E7A6E7B0038798A /* C */,
+				A2C0A1A81E7A6E7B0038798A /* M */,
+				A2C0A1A91E7A6E7B0038798A /* V */,
+			);
+			path = Tab2;
+			sourceTree = "<group>";
+		};
+		A2C0A19B1E7A6DFC0038798A /* Tab3 */ = {
+			isa = PBXGroup;
+			children = (
+				A2C0A1B11E7A6EB30038798A /* C */,
+				A2C0A1B21E7A6EB30038798A /* M */,
+				A2C0A1B31E7A6EB30038798A /* V */,
+			);
+			path = Tab3;
+			sourceTree = "<group>";
+		};
+		A2C0A19C1E7A6DFC0038798A /* TabBase */ = {
+			isa = PBXGroup;
+			children = (
+				A2C0A19D1E7A6DFC0038798A /* LFBaseViewController.h */,
+				A2C0A19E1E7A6DFC0038798A /* LFBaseViewController.m */,
+			);
+			path = TabBase;
+			sourceTree = "<group>";
+		};
+		A2C0A1A51E7A6E7B0038798A /* C */ = {
+			isa = PBXGroup;
+			children = (
+				A2C0A1A61E7A6E7B0038798A /* LFViewController2.h */,
+				A2C0A1A71E7A6E7B0038798A /* LFViewController2.m */,
+			);
+			path = C;
+			sourceTree = "<group>";
+		};
+		A2C0A1A81E7A6E7B0038798A /* M */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = M;
+			sourceTree = "<group>";
+		};
+		A2C0A1A91E7A6E7B0038798A /* V */ = {
+			isa = PBXGroup;
+			children = (
+				A2C0A1C01E7A7F630038798A /* LFTabOneCell.h */,
+				A2C0A1C11E7A7F630038798A /* LFTabOneCell.m */,
+			);
+			path = V;
+			sourceTree = "<group>";
+		};
+		A2C0A1AB1E7A6EA00038798A /* C */ = {
+			isa = PBXGroup;
+			children = (
+				A2C0A1AC1E7A6EA00038798A /* LFViewController1.h */,
+				A2C0A1AD1E7A6EA00038798A /* LFViewController1.m */,
+			);
+			path = C;
+			sourceTree = "<group>";
+		};
+		A2C0A1AE1E7A6EA00038798A /* M */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = M;
+			sourceTree = "<group>";
+		};
+		A2C0A1AF1E7A6EA00038798A /* V */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = V;
+			sourceTree = "<group>";
+		};
+		A2C0A1B11E7A6EB30038798A /* C */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = C;
+			sourceTree = "<group>";
+		};
+		A2C0A1B21E7A6EB30038798A /* M */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = M;
+			sourceTree = "<group>";
+		};
+		A2C0A1B31E7A6EB30038798A /* V */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = V;
+			sourceTree = "<group>";
+		};
 		A7B0B6E910155C6F7E16023F /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
@@ -156,8 +279,11 @@
 		E85F75DE1E6A69F700D586F6 /* Classes */ = {
 			isa = PBXGroup;
 			children = (
-				E85F75FF1E6A96E500D586F6 /* AttributVC(富文本) */,
-				E85F760B1E6AAC3400D586F6 /* 其他测试VC */,
+				E85F75FF1E6A96E500D586F6 /* AttributVC */,
+				A2C0A19C1E7A6DFC0038798A /* TabBase */,
+				A2C0A1951E7A6DFC0038798A /* Tab1 */,
+				A2C0A1981E7A6DFC0038798A /* Tab2 */,
+				A2C0A19B1E7A6DFC0038798A /* Tab3 */,
 				E85F75E61E6A69F700D586F6 /* Main */,
 				E85F75E71E6A69F700D586F6 /* Other */,
 			);
@@ -169,6 +295,12 @@
 			children = (
 				E85F75FC1E6A702C00D586F6 /* LFTabBarViewController.h */,
 				E85F75FD1E6A702C00D586F6 /* LFTabBarViewController.m */,
+				A2C0A1B41E7A6FED0038798A /* LFTabOneNC.h */,
+				A2C0A1B51E7A6FED0038798A /* LFTabOneNC.m */,
+				A2C0A1B71E7A70010038798A /* LFTabTwoNC.h */,
+				A2C0A1B81E7A70010038798A /* LFTabTwoNC.m */,
+				A2C0A1BA1E7A70140038798A /* LFTabThreeNC.h */,
+				A2C0A1BB1E7A70140038798A /* LFTabThreeNC.m */,
 				E85F76B21E78146200D586F6 /* LFNavigationController.h */,
 				E85F76B31E78146200D586F6 /* LFNavigationController.m */,
 				E85F76091E6A98D400D586F6 /* TabBarController.h */,
@@ -187,12 +319,14 @@
 				E85F75EC1E6A69F700D586F6 /* FontFamily(iOS所有字体).m */,
 				E85F75ED1E6A69F700D586F6 /* Macro.h */,
 				E85F75EE1E6A69F700D586F6 /* Macro.m */,
+				A2C0A1BD1E7A7A980038798A /* GlobalConstant.h */,
+				A2C0A1BE1E7A7A980038798A /* GlobalConstant.m */,
 				E85F773D1E7988B000D586F6 /* main.m */,
 			);
 			path = Other;
 			sourceTree = "<group>";
 		};
-		E85F75FF1E6A96E500D586F6 /* AttributVC(富文本) */ = {
+		E85F75FF1E6A96E500D586F6 /* AttributVC */ = {
 			isa = PBXGroup;
 			children = (
 				E85F76001E6A96E500D586F6 /* AttributteStringVC.h */,
@@ -202,20 +336,8 @@
 				E85F76041E6A96E500D586F6 /* ViewController.h */,
 				E85F76051E6A96E500D586F6 /* ViewController.m */,
 			);
+			name = AttributVC;
 			path = "AttributVC(富文本)";
-			sourceTree = "<group>";
-		};
-		E85F760B1E6AAC3400D586F6 /* 其他测试VC */ = {
-			isa = PBXGroup;
-			children = (
-				E85F76271E6ABBB900D586F6 /* LFBaseViewController.h */,
-				E85F76281E6ABBB900D586F6 /* LFBaseViewController.m */,
-				E85F760C1E6AAC4900D586F6 /* LFViewController1.h */,
-				E85F760D1E6AAC4900D586F6 /* LFViewController1.m */,
-				E85F760F1E6AAC5300D586F6 /* LFViewController2.h */,
-				E85F76101E6AAC5300D586F6 /* LFViewController2.m */,
-			);
-			path = "其他测试VC";
 			sourceTree = "<group>";
 		};
 		E85F77121E783BBB00D586F6 /* Category */ = {
@@ -305,7 +427,7 @@
 				TargetAttributes = {
 					E85F758D1E6128A000D586F6 = {
 						CreatedOnToolsVersion = 8.2.1;
-						DevelopmentTeam = NHSFN525BS;
+						DevelopmentTeam = 8AQ22W6DS5;
 						ProvisioningStyle = Automatic;
 					};
 				};
@@ -400,21 +522,26 @@
 				E85F75FE1E6A702C00D586F6 /* LFTabBarViewController.m in Sources */,
 				E85F76071E6A96E500D586F6 /* LFAttributteNVC.m in Sources */,
 				E85F77271E783BCC00D586F6 /* NSCalendar+Init.m in Sources */,
-				E85F760E1E6AAC4900D586F6 /* LFViewController1.m in Sources */,
 				E85F772A1E783BCC00D586F6 /* UIBarButtonItem+Item.m in Sources */,
+				A2C0A1B91E7A70010038798A /* LFTabTwoNC.m in Sources */,
 				E85F76081E6A96E500D586F6 /* ViewController.m in Sources */,
 				E85F77301E783BCC00D586F6 /* UIView+Init.m in Sources */,
 				E85F77281E783BCC00D586F6 /* NSDate+Interval.m in Sources */,
 				E85F772C1E783BCC00D586F6 /* UIImage+Image.m in Sources */,
 				E85F773E1E7988B000D586F6 /* main.m in Sources */,
+				A2C0A1BC1E7A70140038798A /* LFTabThreeNC.m in Sources */,
 				E85F772F1E783BCC00D586F6 /* UIView+Frame.m in Sources */,
-				E85F76111E6AAC5300D586F6 /* LFViewController2.m in Sources */,
 				E85F772B1E783BCC00D586F6 /* UIImage+Antialias.m in Sources */,
-				E85F76291E6ABBB900D586F6 /* LFBaseViewController.m in Sources */,
 				E85F75F61E6A69F700D586F6 /* AppDelegate.m in Sources */,
 				E85F77291E783BCC00D586F6 /* NSObject+FileManager.m in Sources */,
 				E85F772E1E783BCC00D586F6 /* UITextField+Placeholder.m in Sources */,
+				A2C0A1C21E7A7F630038798A /* LFTabOneCell.m in Sources */,
 				E85F772D1E783BCC00D586F6 /* UIImageView+Header.m in Sources */,
+				A2C0A1B01E7A6EA00038798A /* LFViewController1.m in Sources */,
+				A2C0A1AA1E7A6E7B0038798A /* LFViewController2.m in Sources */,
+				A2C0A1B61E7A6FED0038798A /* LFTabOneNC.m in Sources */,
+				A2C0A1A31E7A6DFC0038798A /* LFBaseViewController.m in Sources */,
+				A2C0A1BF1E7A7A980038798A /* GlobalConstant.m in Sources */,
 				E85F76061E6A96E500D586F6 /* AttributteStringVC.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -526,11 +653,12 @@
 			baseConfigurationReference = 57C3300E0DDD2D724899F34B /* Pods-LFAttribute.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				DEVELOPMENT_TEAM = NHSFN525BS;
+				DEVELOPMENT_TEAM = 8AQ22W6DS5;
 				GCC_PREFIX_HEADER = LFAttribute/PrefixHeader.pch;
 				INFOPLIST_FILE = LFAttribute/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = "com.luofeng.----";
+				PRODUCT_BUNDLE_IDENTIFIER = com.luofeng.attribute;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
 			name = Debug;
@@ -540,11 +668,12 @@
 			baseConfigurationReference = A3446F361A76E2DD16305C7D /* Pods-LFAttribute.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				DEVELOPMENT_TEAM = NHSFN525BS;
+				DEVELOPMENT_TEAM = 8AQ22W6DS5;
 				GCC_PREFIX_HEADER = LFAttribute/PrefixHeader.pch;
 				INFOPLIST_FILE = LFAttribute/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = "com.luofeng.----";
+				PRODUCT_BUNDLE_IDENTIFIER = com.luofeng.attribute;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
 			name = Release;

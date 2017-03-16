@@ -11,6 +11,10 @@
 #import "LFViewController1.h"
 #import "LFViewController2.h"
 
+#import "LFTabOneNC.h"
+#import "LFTabTwoNC.h"
+#import "LFTabThreeNC.h"
+
 
 #import "UIImage+Image.h"
 
@@ -21,6 +25,7 @@
 @implementation LFTabBarViewController
 
 +(void)load{
+    
     
     UITabBarItem *item =  [UITabBarItem appearanceWhenContainedIn:self, nil];
     
@@ -39,55 +44,30 @@
 
 - (void)viewDidLoad {
     [super viewDidLoad];
-    // Do any additional setup after loading the view.
     self.delegate = self;
     [self setupViewControllers];
-//    [self setUpAllTabItem];
-}
 
--(void)viewWillAppear:(BOOL)animated{
-    [super viewWillAppear:animated];
-    //NSLog(@"tabBarController-->%@",self.tabBarController);
+    [self setSelectedIndex:1];
 }
 
 - (void)setupViewControllers{
-//    AttributteStringVC *attStringVC = [[AttributteStringVC alloc] init];
-//    attStringVC.tabBarItem.title = @"富文本";
-//    attStringVC.tabBarItem.image = [UIImage imageNamed:@"open"];
-    
-    
     
     LFViewController1 *vc1 = [[LFViewController1 alloc] init];
     vc1.tabBarItem.title = @"列表";
     vc1.tabBarItem.image = [UIImage imageNamed:@"tabBar_essence_icon"];
     vc1.tabBarItem.selectedImage = [UIImage imageNamedWithOriganlMode:@"tabBar_essence_click_icon"];
-    [self addChildViewController:vc1];
+    LFTabOneNC *oneNC = [[LFTabOneNC alloc] initWithRootViewController:vc1];
+    [self addChildViewController:oneNC];
     
     LFViewController2 *vc2 = [[LFViewController2 alloc] init];
     vc2.tabBarItem.title = @"本地存储";
     vc2.tabBarItem.image = [UIImage imageNamed:@"tabBar_me_icon"];
     vc2.tabBarItem.selectedImage = [UIImage imageNamedWithOriganlMode:@"tabBar_me_click_icon"];
-    [self addChildViewController:vc2];
+    LFTabTwoNC *twoNC = [[LFTabTwoNC alloc] initWithRootViewController:vc2];
+    [self addChildViewController:twoNC];
     
     //[self setViewControllers:@[vc1,vc2]];
 }
-
-- (void)setUpAllTabItem{
-    
-    UIViewController *vc1 = self.childViewControllers[0];
-    vc1.tabBarItem.title = @"富文本";
-    vc1.tabBarItem.image = [UIImage imageNamed:@"open"];
-    
-    UIViewController *vc2 = self.childViewControllers[1];
-    vc2.tabBarItem.title = @"列表";
-    vc2.tabBarItem.image = [UIImage imageNamed:@"xinzang"];
-    
-    UIViewController *vc3 = self.childViewControllers[2];
-    vc3.tabBarItem.title = @"本地存储";
-    vc3.tabBarItem.image = [UIImage imageNamed:@"liliang"];
-    
-}
-
 
 
 #pragma mark - UITabBarControllerDelegate

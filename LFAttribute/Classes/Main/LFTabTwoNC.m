@@ -1,23 +1,22 @@
 //
-//  LFBaseViewController.m
+//  LFTabTwoNC.m
 //  LFAttribute
 //
-//  Created by LuoFeng on 2017/3/4.
+//  Created by wen on 2017/3/16.
 //  Copyright © 2017年 LuoFengcompany. All rights reserved.
 //
 
-#import "LFBaseViewController.h"
+#import "LFTabTwoNC.h"
 
-@interface LFBaseViewController ()
+@interface LFTabTwoNC ()
 
 @end
 
-@implementation LFBaseViewController
+@implementation LFTabTwoNC
 
 - (void)viewDidLoad {
     [super viewDidLoad];
     // Do any additional setup after loading the view.
-    self.view.backgroundColor = [UIColor whiteColor];
     
 }
 
@@ -35,7 +34,5 @@
     // Pass the selected object to the new view controller.
 }
 */
-
-
 
 @end
