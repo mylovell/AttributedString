@@ -6,18 +6,19 @@
 //  Copyright © 2017年 LuoFengcompany. All rights reserved.
 //
 
-#import "CustomVC.h"
+#import "CustomUIVC.h"
 
-@interface CustomVC ()
+@interface CustomUIVC ()
 
 @end
 
-@implementation CustomVC
+@implementation CustomUIVC
 
 - (void)viewDidLoad {
     [super viewDidLoad];
     // Do any additional setup after loading the view.
     self.view.backgroundColor = randomColor;
+    self.title = @"My CustomUI";
 }
 
 - (void)didReceiveMemoryWarning {
