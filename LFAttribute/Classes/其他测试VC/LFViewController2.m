@@ -1,22 +1,24 @@
 //
-//  LFTabOneNC.m
+//  LFViewController2.m
 //  LFAttribute
 //
-//  Created by wen on 2017/3/16.
+//  Created by LuoFeng on 2017/3/4.
 //  Copyright © 2017年 LuoFengcompany. All rights reserved.
 //
 
-#import "LFTabOneNC.h"
+#import "LFViewController2.h"
 
-@interface LFTabOneNC ()
+@interface LFViewController2 ()
 
 @end
 
-@implementation LFTabOneNC
+@implementation LFViewController2
 
 - (void)viewDidLoad {
     [super viewDidLoad];
     // Do any additional setup after loading the view.
+    self.view.backgroundColor = [UIColor lightGrayColor];
+    
     
 }
 
@@ -24,6 +26,7 @@
     [super didReceiveMemoryWarning];
     // Dispose of any resources that can be recreated.
 }
+
 
 /*
 #pragma mark - Navigation
