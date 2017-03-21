@@ -7,18 +7,10 @@
 //
 
 #import "LFTabBarViewController.h"
-#import "AttributteStringVC.h"
-#import "LFViewController1.h"
-#import "LFViewController2.h"
-
-#import "LFTabOneNC.h"
-#import "LFTabTwoNC.h"
-#import "LFTabThreeNC.h"
-
-#import "LFTabOneNC.h"
-#import "LFTabTwoNC.h"
-#import "LFTabThreeNC.h"
-
+#import "StorageNC.h"
+#import "CustomUINC.h"
+#import "StorageVC.h"
+#import "CustomVC.h"
 
 #import "UIImage+Image.h"
 
@@ -47,7 +39,7 @@
 
 - (void)viewDidLoad {
     [super viewDidLoad];
-    // Do any additional setup after loading the view.
+    
     self.delegate = self;
     [self setupViewControllers];
 //    [self setUpAllTabItem];
@@ -55,27 +47,25 @@
 
 -(void)viewWillAppear:(BOOL)animated{
     [super viewWillAppear:animated];
-    //NSLog(@"tabBarController-->%@",self.tabBarController);
+    
 }
 
 - (void)setupViewControllers{
-//    AttributteStringVC *attStringVC = [[AttributteStringVC alloc] init];
-//    attStringVC.tabBarItem.title = @"富文本";
-//    attStringVC.tabBarItem.image = [UIImage imageNamed:@"open"];
     
     
-    
-    LFViewController1 *vc1 = [[LFViewController1 alloc] init];
-    vc1.tabBarItem.title = @"列表";
+    CustomVC *vc1 = [[CustomVC alloc] init];
+    vc1.tabBarItem.title = @"CustomUI";
     vc1.tabBarItem.image = [UIImage imageNamed:@"tabBar_essence_icon"];
     vc1.tabBarItem.selectedImage = [UIImage imageNamedWithOriganlMode:@"tabBar_essence_click_icon"];
-    [self addChildViewController:vc1];
+    CustomUINC *customUINC = [[CustomUINC alloc] initWithRootViewController:vc1];
+    [self addChildViewController:customUINC];
     
-    LFViewController2 *vc2 = [[LFViewController2 alloc] init];
-    vc2.tabBarItem.title = @"本地存储";
+    StorageVC *vc2 = [[StorageVC alloc] init];
+    vc2.tabBarItem.title = @"Storage";
     vc2.tabBarItem.image = [UIImage imageNamed:@"tabBar_me_icon"];
     vc2.tabBarItem.selectedImage = [UIImage imageNamedWithOriganlMode:@"tabBar_me_click_icon"];
-    [self addChildViewController:vc2];
+    StorageNC *storageNC = [[StorageNC alloc] initWithRootViewController:vc2];
+    [self addChildViewController:storageNC];
     
     //[self setViewControllers:@[vc1,vc2]];
 }

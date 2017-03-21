@@ -1,24 +1,22 @@
 //
-//  LFBaseViewController.m
+//  CustomUINC.m
 //  LFAttribute
 //
-//  Created by LuoFeng on 2017/3/4.
+//  Created by LuoFeng on 2017/3/21.
 //  Copyright © 2017年 LuoFengcompany. All rights reserved.
 //
 
-#import "LFBaseViewController.h"
+#import "CustomUINC.h"
 
-@interface LFBaseViewController ()
+@interface CustomUINC ()
 
 @end
 
-@implementation LFBaseViewController
+@implementation CustomUINC
 
 - (void)viewDidLoad {
     [super viewDidLoad];
     // Do any additional setup after loading the view.
-    self.view.backgroundColor = [UIColor whiteColor];
-    
 }
 
 - (void)didReceiveMemoryWarning {
@@ -35,7 +33,5 @@
     // Pass the selected object to the new view controller.
 }
 */
-
-
 
 @end

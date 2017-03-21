@@ -1,38 +1,28 @@
 //
-//  LFViewController1.m
+//  StorageNC.m
 //  LFAttribute
 //
-//  Created by LuoFeng on 2017/3/4.
+//  Created by LuoFeng on 2017/3/21.
 //  Copyright © 2017年 LuoFengcompany. All rights reserved.
 //
 
-#import "LFViewController1.h"
+#import "StorageNC.h"
 
-@interface LFViewController1 ()
+@interface StorageNC ()
 
 @end
 
-@implementation LFViewController1
+@implementation StorageNC
 
 - (void)viewDidLoad {
     [super viewDidLoad];
     // Do any additional setup after loading the view.
-    self.view.backgroundColor = [UIColor whiteColor];
-
-    [self setUpTableView];
 }
-
-- (void)setUpTableView{
-    
-    
-}
-
 
 - (void)didReceiveMemoryWarning {
     [super didReceiveMemoryWarning];
     // Dispose of any resources that can be recreated.
 }
-
 
 /*
 #pragma mark - Navigation
