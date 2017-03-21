@@ -34,6 +34,7 @@
 		E8B02B371E8156F600333F84 /* StorageNC.m in Sources */ = {isa = PBXBuildFile; fileRef = E8B02B341E8156F600333F84 /* StorageNC.m */; };
 		E8B02B451E81570A00333F84 /* CustomUIVC.m in Sources */ = {isa = PBXBuildFile; fileRef = E8B02B401E81570A00333F84 /* CustomUIVC.m */; };
 		E8B02B461E81570A00333F84 /* CustomUINC.m in Sources */ = {isa = PBXBuildFile; fileRef = E8B02B421E81570A00333F84 /* CustomUINC.m */; };
+		E8B02B491E81655D00333F84 /* FMDBViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E8B02B481E81655D00333F84 /* FMDBViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -91,6 +92,8 @@
 		E8B02B401E81570A00333F84 /* CustomUIVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CustomUIVC.m; sourceTree = "<group>"; };
 		E8B02B411E81570A00333F84 /* CustomUINC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CustomUINC.h; sourceTree = "<group>"; };
 		E8B02B421E81570A00333F84 /* CustomUINC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CustomUINC.m; sourceTree = "<group>"; };
+		E8B02B471E81655D00333F84 /* FMDBViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FMDBViewController.h; sourceTree = "<group>"; };
+		E8B02B481E81655D00333F84 /* FMDBViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FMDBViewController.m; sourceTree = "<group>"; };
 		F1F3DD5F913FD399E6B1A34D /* libPods-LFAttribute.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-LFAttribute.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
@@ -280,6 +283,8 @@
 		E8B02B2B1E8156F600333F84 /* C */ = {
 			isa = PBXGroup;
 			children = (
+				E8B02B471E81655D00333F84 /* FMDBViewController.h */,
+				E8B02B481E81655D00333F84 /* FMDBViewController.m */,
 			);
 			path = C;
 			sourceTree = "<group>";
@@ -535,6 +540,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				E85F76B41E78146200D586F6 /* LFNavigationController.m in Sources */,
+				E8B02B491E81655D00333F84 /* FMDBViewController.m in Sources */,
 				E85F75FE1E6A702C00D586F6 /* LFTabBarViewController.m in Sources */,
 				E85F76071E6A96E500D586F6 /* LFAttributteNVC.m in Sources */,
 				E8B02B371E8156F600333F84 /* StorageNC.m in Sources */,
