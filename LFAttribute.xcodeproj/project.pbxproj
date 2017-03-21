@@ -32,7 +32,7 @@
 		E85F773E1E7988B000D586F6 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = E85F773D1E7988B000D586F6 /* main.m */; };
 		E8B02B361E8156F600333F84 /* StorageVC.m in Sources */ = {isa = PBXBuildFile; fileRef = E8B02B311E8156F600333F84 /* StorageVC.m */; };
 		E8B02B371E8156F600333F84 /* StorageNC.m in Sources */ = {isa = PBXBuildFile; fileRef = E8B02B341E8156F600333F84 /* StorageNC.m */; };
-		E8B02B451E81570A00333F84 /* CustomVC.m in Sources */ = {isa = PBXBuildFile; fileRef = E8B02B401E81570A00333F84 /* CustomVC.m */; };
+		E8B02B451E81570A00333F84 /* CustomUIVC.m in Sources */ = {isa = PBXBuildFile; fileRef = E8B02B401E81570A00333F84 /* CustomUIVC.m */; };
 		E8B02B461E81570A00333F84 /* CustomUINC.m in Sources */ = {isa = PBXBuildFile; fileRef = E8B02B421E81570A00333F84 /* CustomUINC.m */; };
 /* End PBXBuildFile section */
 
@@ -87,8 +87,8 @@
 		E8B02B311E8156F600333F84 /* StorageVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = StorageVC.m; sourceTree = "<group>"; };
 		E8B02B331E8156F600333F84 /* StorageNC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = StorageNC.h; sourceTree = "<group>"; };
 		E8B02B341E8156F600333F84 /* StorageNC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = StorageNC.m; sourceTree = "<group>"; };
-		E8B02B3F1E81570A00333F84 /* CustomVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CustomVC.h; sourceTree = "<group>"; };
-		E8B02B401E81570A00333F84 /* CustomVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CustomVC.m; sourceTree = "<group>"; };
+		E8B02B3F1E81570A00333F84 /* CustomUIVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CustomUIVC.h; sourceTree = "<group>"; };
+		E8B02B401E81570A00333F84 /* CustomUIVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CustomUIVC.m; sourceTree = "<group>"; };
 		E8B02B411E81570A00333F84 /* CustomUINC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CustomUINC.h; sourceTree = "<group>"; };
 		E8B02B421E81570A00333F84 /* CustomUINC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CustomUINC.m; sourceTree = "<group>"; };
 		F1F3DD5F913FD399E6B1A34D /* libPods-LFAttribute.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-LFAttribute.a"; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -301,10 +301,10 @@
 		E8B02B2E1E8156F600333F84 /* Main */ = {
 			isa = PBXGroup;
 			children = (
-				E8B02B2F1E8156F600333F84 /* C */,
-				E8B02B321E8156F600333F84 /* M */,
 				E8B02B331E8156F600333F84 /* StorageNC.h */,
 				E8B02B341E8156F600333F84 /* StorageNC.m */,
+				E8B02B2F1E8156F600333F84 /* C */,
+				E8B02B321E8156F600333F84 /* M */,
 				E8B02B351E8156F600333F84 /* V */,
 			);
 			path = Main;
@@ -388,8 +388,8 @@
 		E8B02B3E1E81570A00333F84 /* C */ = {
 			isa = PBXGroup;
 			children = (
-				E8B02B3F1E81570A00333F84 /* CustomVC.h */,
-				E8B02B401E81570A00333F84 /* CustomVC.m */,
+				E8B02B3F1E81570A00333F84 /* CustomUIVC.h */,
+				E8B02B401E81570A00333F84 /* CustomUIVC.m */,
 			);
 			path = C;
 			sourceTree = "<group>";
@@ -543,7 +543,7 @@
 				E85F76081E6A96E500D586F6 /* ViewController.m in Sources */,
 				E8B02B361E8156F600333F84 /* StorageVC.m in Sources */,
 				E85F77301E783BCC00D586F6 /* UIView+Init.m in Sources */,
-				E8B02B451E81570A00333F84 /* CustomVC.m in Sources */,
+				E8B02B451E81570A00333F84 /* CustomUIVC.m in Sources */,
 				E85F77281E783BCC00D586F6 /* NSDate+Interval.m in Sources */,
 				E85F772C1E783BCC00D586F6 /* UIImage+Image.m in Sources */,
 				E85F773E1E7988B000D586F6 /* main.m in Sources */,

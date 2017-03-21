@@ -10,7 +10,7 @@
 #import "StorageNC.h"
 #import "CustomUINC.h"
 #import "StorageVC.h"
-#import "CustomVC.h"
+#import "CustomUIVC.h"
 
 #import "UIImage+Image.h"
 
@@ -53,7 +53,7 @@
 - (void)setupViewControllers{
     
     
-    CustomVC *vc1 = [[CustomVC alloc] init];
+    CustomUIVC *vc1 = [[CustomUIVC alloc] init];
     vc1.tabBarItem.title = @"CustomUI";
     vc1.tabBarItem.image = [UIImage imageNamed:@"tabBar_essence_icon"];
     vc1.tabBarItem.selectedImage = [UIImage imageNamedWithOriganlMode:@"tabBar_essence_click_icon"];

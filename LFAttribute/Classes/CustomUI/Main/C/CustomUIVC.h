@@ -1,5 +1,5 @@
 //
-//  CustomVC.h
+//  CustomUIVC.h
 //  LFAttribute
 //
 //  Created by LuoFeng on 2017/3/21.
