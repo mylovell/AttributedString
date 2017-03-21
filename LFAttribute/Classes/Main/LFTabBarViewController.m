@@ -11,6 +11,14 @@
 #import "LFViewController1.h"
 #import "LFViewController2.h"
 
+#import "LFTabOneNC.h"
+#import "LFTabTwoNC.h"
+#import "LFTabThreeNC.h"
+
+#import "LFTabOneNC.h"
+#import "LFTabTwoNC.h"
+#import "LFTabThreeNC.h"
+
 
 #import "UIImage+Image.h"
 
