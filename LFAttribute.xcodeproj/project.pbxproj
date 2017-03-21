@@ -35,6 +35,7 @@
 		E8B02B451E81570A00333F84 /* CustomUIVC.m in Sources */ = {isa = PBXBuildFile; fileRef = E8B02B401E81570A00333F84 /* CustomUIVC.m */; };
 		E8B02B461E81570A00333F84 /* CustomUINC.m in Sources */ = {isa = PBXBuildFile; fileRef = E8B02B421E81570A00333F84 /* CustomUINC.m */; };
 		E8B02B491E81655D00333F84 /* FMDBViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E8B02B481E81655D00333F84 /* FMDBViewController.m */; };
+		E8B02B4B1E81684600333F84 /* FMDBView.xib in Resources */ = {isa = PBXBuildFile; fileRef = E8B02B4A1E81684600333F84 /* FMDBView.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -94,6 +95,7 @@
 		E8B02B421E81570A00333F84 /* CustomUINC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CustomUINC.m; sourceTree = "<group>"; };
 		E8B02B471E81655D00333F84 /* FMDBViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FMDBViewController.h; sourceTree = "<group>"; };
 		E8B02B481E81655D00333F84 /* FMDBViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FMDBViewController.m; sourceTree = "<group>"; };
+		E8B02B4A1E81684600333F84 /* FMDBView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = FMDBView.xib; sourceTree = "<group>"; };
 		F1F3DD5F913FD399E6B1A34D /* libPods-LFAttribute.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-LFAttribute.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
@@ -299,6 +301,7 @@
 		E8B02B2D1E8156F600333F84 /* V */ = {
 			isa = PBXGroup;
 			children = (
+				E8B02B4A1E81684600333F84 /* FMDBView.xib */,
 			);
 			path = V;
 			sourceTree = "<group>";
@@ -479,6 +482,7 @@
 				E85F77361E79880E00D586F6 /* 120x120.png in Resources */,
 				E85F77371E79880E00D586F6 /* bitch.jpeg in Resources */,
 				E85F773A1E79882C00D586F6 /* LaunchScreen.storyboard in Resources */,
+				E8B02B4B1E81684600333F84 /* FMDBView.xib in Resources */,
 				E85F759E1E6128A000D586F6 /* Assets.xcassets in Resources */,
 				E85F773C1E79886600D586F6 /* Info.plist in Resources */,
 			);
